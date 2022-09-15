@@ -22,16 +22,16 @@ body {
   background-color: var(--clr-bg);
 }
 
-.light {
+/* .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 
-.dark {
+.light {
   --clr-bg: #23283e;
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
@@ -126,13 +126,13 @@ button {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-weight: 500;
 }
 
 .link--icon {
   color: var(--clr-fg);
-  font-size: 1.2rem;
+  font-size: 1.9rem;
 }
 
 .btn {
@@ -140,7 +140,7 @@ button {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   transition: transform 0.2s ease-in-out;
 }
 
@@ -292,7 +292,16 @@ main {
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
 }
+.project1 {
+  padding: 2em;
+  margin: 0 auto;
 
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+.project1:hover {
+  transform: translateY(-7px);
+}
 .project:hover {
   transform: translateY(-7px);
 }
